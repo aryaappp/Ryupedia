@@ -1887,8 +1887,10 @@ body {
 }
 
 .our {
+  color: rgb(255, 238, 0);
+}
+.OurService {
   align-items: center;
   justify-content: center;
-  padding: 0px 500px;
-  color: rgb(255, 238, 0);
+  padding: 0px 500px;	
 }
