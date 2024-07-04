@@ -201,7 +201,7 @@ p {
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  margin-left: 0px;
+  margin-left: 600px;
   text-align: center;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
