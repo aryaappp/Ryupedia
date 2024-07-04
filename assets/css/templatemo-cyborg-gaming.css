@@ -215,6 +215,39 @@ p {
   color: #000000;
 }
 
+.main-button-topup a {
+  font-size: 14px;
+  color: #e4c93e;
+  background-color: transparent;
+  border: 1px solid #e4c93e;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  margin-left: 470px;
+  margin-top: 30px;
+  text-align: center;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.main-button-topup a:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #000000;
+}
+
 .border-no-active a {
   border-color: #666;
   color: #666;
@@ -1449,6 +1482,16 @@ Game Details Style
   color: #ec6090;
 }
 
+.game-details .content p {
+  color: white;
+  text-align: justify;
+}
+
+.game-details .content2 p {
+  color: white;
+  text-align: justify;
+}
+
 .game-details .main-border-button {
   margin-top: 35px;
 }
@@ -1887,8 +1930,10 @@ body {
 }
 
 .our {
+  color: rgb(255, 238, 0);
+}
+.OurService {
   align-items: center;
   justify-content: center;
-  padding: 0px 500px;
-  color: rgb(255, 238, 0);
+  padding: 0px 544px;	
 }
