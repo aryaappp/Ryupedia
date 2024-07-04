@@ -1482,6 +1482,14 @@ Game Details Style
   color: #ec6090;
 }
 
+.game-details .content p {
+  color: white;
+}
+
+.game-details .content2 p {
+  color: white;
+}
+
 .game-details .main-border-button {
   margin-top: 35px;
 }
