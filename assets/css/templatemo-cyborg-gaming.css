@@ -1484,10 +1484,12 @@ Game Details Style
 
 .game-details .content p {
   color: white;
+  text-align: justify;
 }
 
 .game-details .content2 p {
   color: white;
+  text-align: justify;
 }
 
 .game-details .main-border-button {
