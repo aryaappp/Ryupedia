@@ -1462,6 +1462,46 @@ Game Details Style
   width: 100%;
 } 
 
+.game-details .content2 {
+  margin-top: 30px;
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #1f2122;
+}
+
+.game-details .content2 {
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #1f2122;
+}
+
+.game-details .content2 .left-info {
+  background-color: #27292a;
+  border-radius: 23px;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+}
+
+.game-details .content2 .left-info .left {
+  float: left;
+}
+
+.game-details .content2 .left-info h4 {
+  font-size: 15px;
+  display: block;
+}
+
+.game-details .content2 .left-info span {
+  color: #666;
+  display: block;
+  margin-top: 7px;
+  font-weight: 400;
+}
+
 .game-details .content2 .left-info ul {
   text-align: right;
 }
