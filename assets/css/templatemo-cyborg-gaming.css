@@ -152,15 +152,26 @@ p {
 }
 
 .templatemo-item {
-	max-width: 80px; 
+	max-width: 80px;
 	border-radius: 23px;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	-ms-border-radius: 23px;
+	-o-border-radius: 23px;
+}
+
+.main-button {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 500px;
 }
 
 .main-button a {
   font-size: 14px;
-  color: #fff;
-  background-color: #e75e8d;
-  padding: 12px 30px;
+  color: #000000;
+  background-color: #e4c93e;
+  padding: 15px 30px;
   display: inline-block;
   border-radius: 25px;
   font-weight: 400;
@@ -172,15 +183,15 @@ p {
 }
 
 .main-button a:hover {
-  background-color: #fff;
-  color: #e75e8d;
+  background-color: #e4c93e;
+  color: #f7f7f7;
 }
 
 .main-border-button a {
   font-size: 14px;
-  color: #ec6090;
+  color: #e4c93e;
   background-color: transparent;
-  border: 1px solid #ec6090;
+  border: 1px solid #e4c93e;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -190,12 +201,18 @@ p {
   transition: all .3s;
   position: relative;
   overflow: hidden;
+  margin-left: 599px;
+  text-align: center;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
 }
 
 .main-border-button a:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #e75e8d;
+  color: #000000;
 }
 
 .border-no-active a {
@@ -209,19 +226,27 @@ p {
   background-color: transparent;
 }
 
+.list_ml {
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
 section {
   margin-top: 120px;
 }
 
 .heading-section h4 {
-  color: #ec6090;
+  color: #e4c93e;
   font-size: 34px;
   text-decoration: none;
   margin-bottom: 30px;
 }
 
 .heading-section h4 em {
-  color: #fff;
+  color: #e4c93e;
   font-style: normal;
   text-decoration: underline;
 }
@@ -286,6 +311,11 @@ Pre-loader Style
   }
 }
 
+.samsul {
+  text-align: justify;
+  margin-top: -15px;
+  line-height: 35px;
+}
 .preloader-inner {
   position: relative;
   width: 142px;
@@ -306,7 +336,11 @@ Pre-loader Style
   -webkit-animation: dot 2.8s infinite;
   animation: dot 2.8s infinite;
 }
-
+#userID {
+  border: #000000;
+  background-color: #130f0f;
+  color: #CCC;
+}
 .preloader-inner .dots {
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -394,7 +428,7 @@ Header Style
   position: absolute;
   color: #666;
   left: 20px;
-  top: 16px;
+  top: 15px;
   width: 18px;
   height: 18px;
   font-size: 16px;
@@ -402,18 +436,24 @@ Header Style
 
 .header-area .main-nav .logo {
   border-right: 1px solid #27292a;
-  flex-basis: 25%;
-  margin-right: 5%;
+  flex-basis: 50%;
+  margin-right: 45%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.logo {
+  margin-top: -25px;
+}
+
 
 .header-area .main-nav .logo img {
   width: 191px;
 }
-
+.foto {
+  justify-content: center;
+}
 .background-header .main-nav .logo {
   margin-top: 8px;
 }
@@ -421,6 +461,10 @@ Header Style
 .background-header .main-nav .logo img {
   width: 180px;
 }
+
+/* .main-nav {
+  position: fixed;
+} */
 
 .header-area .main-nav .nav {
   display: inline-flex;
@@ -460,11 +504,7 @@ Header Style
   letter-spacing: .3px;
 }
 
-.header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
-  padding: 8px 10px 8px 20px;
-  border-radius: 23px;
-}
+
 
 .header-area .main-nav .nav li:last-child a img {
   max-width: 30px;
@@ -479,13 +519,12 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #e75e8d !important;
+  color: #e4c93e !important;
 }
 
-.header-area .main-nav .nav li:last-child:hover a,
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-  background-color: #e75e8d !important;
+.item img {
+  padding: 10px;
+  top: 100px;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -621,6 +660,10 @@ Header Style
 .header-area.header-sticky .nav li a.active {
   color: #fff;
 }
+.text_akhir {
+  background-color: #090808;
+  
+}
 
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -684,6 +727,7 @@ Header Style
   .header-area .menu-trigger {
     display: block !important;
   }
+  
   .header-area .main-nav {
     overflow: hidden;
   }
@@ -765,7 +809,15 @@ Header Style
     height: 0px;
   }
 }
-
+.containerakhir{
+  background-color: #000000;
+  margin-top: -10px;
+}
+.text_akhir {
+  padding: 30px;
+  text-align: center;
+  
+}
 /* 
 ---------------------------------------------
 Banner Style
@@ -773,19 +825,22 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
   background-position: center center;
   background-size: cover;
-  min-height: 380px;
+  /* min-height: 380px; */
   border-radius: 23px;
-  padding: 80px 60px;
+  padding: 10px 10px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
 }
 
 .main-banner h6 {
   font-size: 20px;
   color: #fff;
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .main-banner h4 {
@@ -797,6 +852,10 @@ Banner Style
 .main-banner h4 em {
   font-style: normal;
   color: #ec6090;
+}
+
+footer {
+  background-color: red;
 }
 
 /* 
@@ -814,7 +873,7 @@ Most Popular Style
 
 .most-popular .item {
   background-color: #27292a;
-  padding: 30px 15px;
+  padding: 30px 20px;
   border-radius: 23px;
   margin-bottom: 30px;
 }
@@ -867,6 +926,17 @@ Most Popular Style
   text-align: center;
   margin-bottom: -53px;
 }
+/* 
+---------------------------------------------
+carousel
+--------------------------------------------- 
+*/
+#carouselExampleIndicators {
+  border-radius: 15px; /* Atur radius sesuai keinginan Anda */
+  overflow: hidden; /* Tambahkan overflow hidden untuk memotong bagian yang melampaui border */
+  /* margin-top: -50px; */
+}
+
 
 /* 
 ---------------------------------------------
@@ -931,7 +1001,7 @@ Gaming Library Style
 
 .gaming-library .main-button {
   text-align: center;
-  margin-bottom: -53px;
+  
 }
 
 /* 
@@ -1376,7 +1446,7 @@ Game Details Style
 }
 
 .game-details .content .right-info ul li:first-child i {
-  color: yellow;
+  color: #ffff00;
 } 
 
 .game-details .content .right-info ul li i {
