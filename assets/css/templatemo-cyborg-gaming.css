@@ -171,7 +171,7 @@ p {
   font-size: 14px;
   color: #000000;
   background-color: #e4c93e;
-  padding: 15px 30px;
+  padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
   font-weight: 400;
@@ -1062,7 +1062,7 @@ Featured Games Style
 .featured-games .item .thumb .hover-effect h6 {
   background-color: rgba(31,33,34,0.95);
   display: inline-block;
-  color: #ec6090;
+  color: #fff01f;
   font-weight: 600;
   font-size: 14px;
   padding: 10px 20px;
