@@ -201,7 +201,7 @@ p {
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  margin-left: 0px;
+  margin-left: 600px;
   text-align: center;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -210,6 +210,39 @@ p {
 }
 
 .main-border-button a:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #000000;
+}
+
+.main-button-topup a {
+  font-size: 14px;
+  color: #e4c93e;
+  background-color: transparent;
+  border: 1px solid #e4c93e;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  margin-left: 470px;
+  margin-top: 30px;
+  text-align: center;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.main-button-topup a:hover {
   border-color: #fff;
   background-color: #fff;
   color: #000000;
@@ -854,10 +887,6 @@ Banner Style
   color: #ec6090;
 }
 
-footer {
-  background-color: red;
-}
-
 /* 
 ---------------------------------------------
 Most Popular Style
@@ -1453,6 +1482,16 @@ Game Details Style
   color: #ec6090;
 }
 
+.game-details .content p {
+  color: white;
+  text-align: justify;
+}
+
+.game-details .content2 p {
+  color: white;
+  text-align: justify;
+}
+
 .game-details .main-border-button {
   margin-top: 35px;
 }
@@ -1461,6 +1500,92 @@ Game Details Style
   text-align: center;
   width: 100%;
 } 
+
+.game-details .content2 {
+  margin-top: 30px;
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #1f2122;
+}
+
+.game-details .content2 {
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #1f2122;
+}
+
+.game-details .content2 .left-info {
+  background-color: #27292a;
+  border-radius: 23px;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+}
+
+.game-details .content2 .left-info .left {
+  float: left;
+}
+
+.game-details .content2 .left-info h4 {
+  font-size: 15px;
+  display: block;
+}
+
+.game-details .content2 .left-info span {
+  color: #666;
+  display: block;
+  margin-top: 7px;
+  font-weight: 400;
+}
+
+.game-details .content2 .left-info ul {
+  text-align: right;
+}
+
+.game-details .content2 .left-info ul li {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.game-details .content2 .left-info ul li:first-child i {
+  color: yellow;
+}
+
+.game-details .content2 .left-info ul li:last-child i {
+  color: #ec6090;
+}
+
+.game-details .content2 .right-info {
+  background-color: #27292a;
+  border-radius: 23px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.game-details .content2 .right-info ul li {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.game-details .content2 .right-info ul li i {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.game-details .content2 .right-info ul li:first-child i {
+  color: #ffff00;
+} 
+
+.game-details .content2 .right-info ul li i {
+  color: #ec6090;
+}
 
 /* 
 ---------------------------------------------
@@ -1802,4 +1927,13 @@ body {
   .gaming-library .item ul li {
     width: 16%;
   }
+}
+
+.our {
+  color: rgb(255, 238, 0);
+}
+.OurService {
+  align-items: center;
+  justify-content: center;
+  padding: 0px 544px;	
 }
